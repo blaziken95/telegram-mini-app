@@ -9,7 +9,7 @@ export default defineConfig({
         outDir: './docs',
     },
     //  https://vite.dev/guide/static-deploy
-    base: '/',
+    base: '/telegram-mini-app/',
     server: {
         port: 5174,
     },
