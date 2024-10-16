@@ -8,7 +8,8 @@ export default defineConfig({
     build: {
         outDir: './docs',
     },
-    base: './',
+    //  https://vite.dev/guide/static-deploy
+    base: '/',
     server: {
         port: 5174,
     },
